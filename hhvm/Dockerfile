@@ -25,3 +25,4 @@ VOLUME ["/var/www"]
 EXPOSE 5000
 
 CMD service hhvm start && nginx -g "daemon off;"
+
